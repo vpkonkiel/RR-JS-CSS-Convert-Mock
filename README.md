@@ -1,7 +1,5 @@
 # Work Assignment - CSS Convert Mockup
 
-**Approx. Time:** 2 weeks
-
 ## Tech Stack
 A list of expected technology to be used in this assignment
 
