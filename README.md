@@ -34,6 +34,6 @@ Refactor your CSS by using the Bootstrap CSS framework where possible
 	* Create a folder named 'images' and add image files to this directory
 	* Create a folder for CSS and add all CSS file to this directory
 4. Add files to staging: `git add .`
-5. Commit staged files: `git commit -m '<some-information-message-here>'
+5. Commit staged files: `git commit -m <some-information-message-here>`
 6. Push changes to GitHub `git push`
 7. Finally create a pull request from your projects GitHub page
