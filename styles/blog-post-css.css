@@ -6,3 +6,7 @@
 .main-text {
     font-size: medium;
 }
+
+#recent-posts-imgs {
+    display: inline-block;
+}
