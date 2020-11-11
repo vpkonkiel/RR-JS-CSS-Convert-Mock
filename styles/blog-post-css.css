@@ -1,5 +1,5 @@
 #popular-posts {
-    max-height: 200px;
+    max-height: 500px;
     font-size: smaller;
 }
 
@@ -9,4 +9,8 @@
 
 #recent-posts-imgs {
     display: inline-block;
+}
+
+.custom-text {
+    font-size: smaller;
 }
