@@ -14,3 +14,20 @@
 .custom-text {
     font-size: smaller;
 }
+
+#barney-image {
+    max-width: 100px;
+}
+
+#barney-comment {
+    margin-left: 5em;
+}
+
+#ted-image {
+    margin-left: 6em;
+    max-width: 100px;
+}
+
+#ted-comment {
+    margin-left: 11em;
+}
