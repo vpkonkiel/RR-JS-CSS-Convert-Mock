@@ -89,7 +89,11 @@
 .footer {
     margin-top: 1500px;
     background-color: #3C4752;
-    color: lightslategray;
-    padding: 5px 10px;
+    color: lightslategray;    
     width: 100%;
+}
+
+.social-media {
+    float: right;
+    margin-top: 13px;
 }
