@@ -1,4 +1,6 @@
-#popular-posts {
+/* main article */
+
+#main-article {
     max-height: 500px;
     font-size: smaller;
 }
@@ -7,27 +9,78 @@
     font-size: medium;
 }
 
+/* popular post sidebar */
+
+#vestibum {
+    float: left;
+    width: 86px;
+}
+
+.post-one {
+    margin-left: 5px;
+}
+
+/* recent posts */
+
 #recent-posts-imgs {
     display: inline-block;
 }
+
+/* custom text sidebar */
 
 .custom-text {
     font-size: smaller;
 }
 
+/* responses */
+
 #barney-image {
     max-width: 100px;
+    float: left;
+    padding-top: 20px;
 }
 
 #barney-comment {
-    margin-left: 5em;
+    float: right;
 }
 
 #ted-image {
     margin-left: 6em;
     max-width: 100px;
+    float: left;
+    padding-top: 20px;
 }
 
 #ted-comment {
-    margin-left: 11em;
+    float: right;
+}
+
+/* submit a comment form */
+
+.comment-form {
+    width: 710px;
+}
+
+.form-fields {
+    width: 700px;
+}
+
+#message {
+    height: 100px;
+}
+
+#submit-button {
+    margin-top: 20px;
+}
+
+#name {
+    margin-bottom: 20px;
+}
+
+#email {
+    margin-bottom: 20px;
+}
+
+#website {
+    margin-bottom: 20px;
 }

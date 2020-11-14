@@ -14,7 +14,7 @@
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand ml-5" href="#">Jkaros</a>
+      <a class="navbar-brand ml-5" href="#">Ikaros</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -44,7 +44,7 @@
     <!-- /navbar -->
 
     <!-- card columns -->
-    <div class="container" id="popular-posts" height="500px">
+    <div class="container" id="main-article" height="500px">
       <div class="card-columns row mx-auto">
         <div class="card col-lg-8">
           <div class="card-body">
@@ -52,23 +52,31 @@
             <hr>
             <h6>Posted by <a href="...">admin</a> in <a href="...">Journal</a>, <a href="...">Photography</a>, <a href="...">Web Design</a> | <a href="...">9 Comments</a></h6>
             <img src="images/grey-block.jpg" class="card-img-top" alt="grey block" height="250px">
-            <p class="card-text main-text">Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Aenean leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis parturient montes ridiculus.</p>
+            <p class="card-text main-text mt-3">Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Aenean leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis parturient montes ridiculus.</p>
             <p class="card-text main-text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
             <p class="card-text main-text">Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper.</p>
             <p class="card-text main-text">Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
           </div>
         </div>
 
-        <div class="card mb-3" style="max-width: 250px; max-height: 550px;">
+        <div class="card" style="max-width: 250px; max-height: 750px;">
           <div class="row no-gutters">
-            <div class="col-sm-4"> 
-            </div>
-            <div class="col-sm-8">
+            <div class="col-sm-12">
               <div class="card-body">
                 <h5 class="card-title">POPULAR POSTS</h5>
-                <img src="images/grey-block.jpg" class="card-img" alt="grey block">
-                <p class="card-text">Vestibum Malesuada Etiam Magna</p>
-                <p class="card-text"><small class="text-muted">22 Nov, 2012</small></p>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <img src="images/grey-block.jpg" class="card-img" alt="grey block" id="vestibum">
+                    </div>
+                    <div class="col-sm">
+                      <div class="card-body post-one">
+                       <p class="card-text">Vestibum Malesuada Etiam Magna</p>
+                       <p class="card-text"><small class="text-muted">22 Nov, 2012</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="col-sm-4">
@@ -90,7 +98,7 @@
               </div>
             </div>
             <hr>
-            <div class="mr-5 py-3">
+            <div class="mr-5 pb-1 ml-3">
               <label id="search">SEARCH</label><br>
               <input type="text" id="search" name="search">
             </div>
@@ -117,36 +125,67 @@
         </div>
 
         <hr>
-        <div class="card-columns row">
+        <div class="card-columns row mx-auto">
           <div class="card col-lg-8">
             <div class="card-body">
-              <h5 class="card-title">2 Responses to "Ridiculus Mattis Lorem Dolor Inceptos"</h5><br>
-              <div class="col-md-4" id="barney-image">
-                <img src="images/grey-block.jpg" class="card-img" alt="grey block" width="5%" height="75px">
-              </div>
-              <div class="col-md-12">
-                <div class="card-body" id="barney-comment">
-                  <h5 class="card-title">Barney Stinson</h5>
-                  <p class="card-text">Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ligula porta euismod semper.</p>
+              <h5 class="card-title">2 Responses to "Ridiculus Mattis Lorem Dolor Inceptos "</h5><br>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-2" id="barney-image">
+                    <img src="images/grey-block.jpg" class="card-img" alt="grey block" width="5%" height="75px">
+                  </div>
+                  <div class="col-md-10">
+                    <div class="card-body" id="barney-comment">
+                      <h6 class="card-title">Barney Stinson</h6>
+                      <p class="card-text">Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ligula porta euismod semper.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="col-md-4" id="ted-image">
-                <img src="images/grey-block.jpg" class="card-img" alt="grey block" width="5%" height="75px">
-              </div>
-              <div class="col-md-12">
-                <div class="card-body" id="ted-comment">
-                  <h5 class="card-title">Ted Evelyn Mosby</h5>
-                  <p class="card-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus.</p>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-2" id="ted-image">
+                    <img src="images/grey-block.jpg" class="card-img" alt="grey block" width="5%" height="75px">
+                  </div>
+                  <div class="col-md">
+                    <div class="card-body" id="ted-comment">
+                      <h6 class="card-title">Ted Evelyn Mosby</h6>
+                      <p class="card-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
+        <div class="card-columns">
+          <div class="card col-lg">
+            <div class="card-body comment-form">
+              <h5 class="card-title">Submit a Comment</h5>
+              <p class="text-muted">Your email address will not be published. Required fields are marked *</p>
+              <form class="form-fields">
+                <input type="text" id="name" name="name" placeholder="Name *" size="85px" required><br>
+                <input type="email" id="email" name="email" placeholder="Email *" size="85px" required><br>
+                <input type="text" id="website" name="website" placeholder="Website" size="85px"><br>
+                <input type="textarea" id="message" name="message" size="85px"><br>
+                <button type="button" name="submit-button" id="submit-button" class="btn btn-info px-5">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- /card columns -->
     
+    <!-- footer -->
+
+    <footer>
+      <p>&#169; Ikaros. Theme by <a href="...">elemis</a>.</p>
+    </footer>
+
+    <!-- /footer -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
