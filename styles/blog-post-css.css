@@ -84,3 +84,12 @@
 #website {
     margin-bottom: 20px;
 }
+
+/* footer */
+.footer {
+    margin-top: 1500px;
+    background-color: #3C4752;
+    color: lightslategray;
+    padding: 5px 10px;
+    width: 100%;
+}
