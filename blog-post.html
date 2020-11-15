@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/blog-post-css.css">
 
+    <!-- Twitter -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Blog Post</title>
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand ml-5" href="#">Ikaros</a>
+      <a class="navbar-brand ml-5 logo" href="#">Ikaros</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -177,13 +180,55 @@
       </div>
     </div>
     <!-- /card columns -->
+
+    <!-- sub-footer -->
+
+    <div class="container sub-footer text-muted">
+      <div class="row m-5">
+        <div class="col-sm">
+          <h6>POPULAR POSTS</h6>
+          <p>Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor.</p>
+          <p>14 Nov, 2012</p>
+          <hr>
+          <p>Scelerisque nisl consectetur et.</p>
+          <p>22 May, 2012</p>
+          <hr>
+          <p>Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce</p>
+          <p>15 July, 2012</p>
+        </div>
+        <div class="col-sm twitter">
+          <h6>TWITTER</h6>
+          <i class="fa fa-twitter" style="line-height: 2.25;" class="text-muted">  Praesent commodo cursus magna Morbi leo risus nulla consectetur. -<a href="..." class="twitter-time">21 hours ago</a></i>
+          <hr>
+          <i class="fa fa-twitter" style="line-height: 2;" class="text-muted">  Vestibulum id ligula porta euismod semper, auctor dolor fermentum. -<a href="..." class="twitter-time">2 days ago</a></i>
+          <hr>
+          <i class="fa fa-twitter" style="line-height: 2;" class="text-muted">  Donec ullamcorper nulla non metus auctor. -<a href="..." class="twitter-time">3 days ago</a></i>
+        </div>
+        <div class="col-sm about-me">
+          <h6>A LITTLE ABOUT ME</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+          <p>Donec id elit non porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel.</p>
+        </div>
+        <div class="col-sm">
+          <h6>CONTACT FORM</h6>
+          <div>
+            <input type="text" style="background-color: rgb(56, 51, 51); border: none;"><br><br>
+            <input type="text" style="background-color: rgb(56, 51, 51); border: none;"><br><br>
+            <input type="textarea" style="background-color: rgb(56, 51, 51); border: none;" class="sub-footer-form">
+            <button type="button" name="submit-button" id="submit-button-footer" class="btn btn-info px-4 mt-3">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
     
+    <!-- /sub-footer -->
+
     <!-- footer -->
 
     
       <div class="footer d-flex">
         <p class="mx-5 pt-3">&#169; 2011 Ikaros. Theme by <a href="...">elemis</a>.</p>
-        <div class="social-media">
+        <div class="social-media mr-5">
           <a href="...">
             <img src="images/rss.png" alt="RSS" width="30px" height="30px">
           </a>
