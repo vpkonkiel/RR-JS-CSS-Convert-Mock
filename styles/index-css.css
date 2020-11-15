@@ -1,0 +1,67 @@
+/* navbar */
+
+.logo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbarNav {
+    float: right;
+}
+
+/* main content */
+
+.comment-date {
+    float: left;
+    font-family: Calibri, 'Open Sans', 'Alégre Sans', 'Helvetica Neue', sans-serif;
+    font-size: inherit;
+    font-stretch: extra-condensed;
+}
+
+.comments {
+    float: right;
+}
+
+.posts {
+    height: fit-content;
+}
+
+/* sub-footer*/
+
+.sub-footer {
+    margin-top: 50px;
+    background-color: #3C4752;
+    min-width: 1200px;
+    float: left;
+}
+
+.twitter-time {
+    color: rgba(77, 180, 206, 0.685);
+}
+
+.about-me {
+    line-height: 2;
+}
+
+.sub-footer-form {
+    height: 150px;
+}
+
+#submit-button-footer {
+    background-color: rgb(22, 116, 153);
+    border: none;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 425px;
+    background-color: #353835;
+    color: lightslategray;    
+    width: 100%;
+}
+
+.social-media {
+    float: right;
+    margin-top: 13px;
+    margin-left: 600px;
+}
