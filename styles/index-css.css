@@ -1,14 +1,21 @@
 /* navbar */
 
 .logo {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Snell Roundhand', 'Brush Script', Damion, 'Ceviche One', cursive;
+    margin-left: 50px;
 }
 
 #navbarNav {
     float: right;
+    margin-left: 525px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* main content */
+
+.main-content {
+    width: 115%;
+}
 
 .comment-date {
     float: left;
@@ -23,6 +30,35 @@
 
 .posts {
     height: fit-content;
+    display: inline-block;
+}
+
+.post-four {
+    top: -50px;
+}
+
+.post-six {
+    top: -80px;
+}
+
+.post-seven {
+    top: -50px;
+}
+
+.post-eight {
+    top: -80px;
+}
+
+.post-nine {
+    top: -130px;
+}
+
+hr {
+    border: 2px dotted;
+}
+
+#submit-button {
+    margin-left: 50px;
 }
 
 /* sub-footer*/

@@ -1,10 +1,19 @@
 /* navbar */
 
 .logo {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Snell Roundhand', 'Brush Script', Damion, 'Ceviche One', cursive;
 }
 
 /* main article */
+
+#ridiculus-image {
+    float: left;
+}
+
+.main-banner {
+    float: right;
+    margin-right: 100px;
+}
 
 #main-article {
     max-height: 500px;
@@ -20,10 +29,12 @@
 #vestibum {
     float: left;
     width: 86px;
+    margin-left: -35px;
+    margin-top: 25px;
 }
 
 .post-one {
-    margin-left: 5px;
+    margin-left: 15px;
 }
 
 /* recent posts */
@@ -65,6 +76,7 @@
 
 .comment-form {
     width: 710px;
+    max-width: 750px;
 }
 
 .form-fields {
